@@ -1,0 +1,8 @@
+body{font-family:Arial,sans-serif;max-width:1000px;margin:auto;padding:20px;background:#f5f5f5}
+header{background:#fff;padding:20px;border-radius:12px}
+.price{font-size:30px;color:#0b7}
+.gallery img#main{width:100%;border-radius:10px}
+.thumbs{display:flex;gap:10px;margin-top:10px}
+.thumbs img{width:120px;height:80px;object-fit:cover;cursor:pointer;border-radius:8px}
+section{background:#fff;margin-top:20px;padding:20px;border-radius:12px}
+a{text-decoration:none}
