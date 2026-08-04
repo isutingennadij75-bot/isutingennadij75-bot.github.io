@@ -1,1 +1,129 @@
+Update office page
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Представницький офіс — Майдан Незалежності</title>
 
+<style>
+body{margin:0;font-family:Arial,sans-serif;background:#f4f4f4;color:#222}
+header{background:#0f172a;color:#fff;padding:45px 20px;text-align:center}
+header h1{margin:0;font-size:38px}
+.price{font-size:42px;color:#d4af37;font-weight:bold;margin-top:15px}
+.wrap{max-width:1200px;margin:auto;padding:25px}
+#hero{width:100%;border-radius:12px;box-shadow:0 5px 20px rgba(0,0,0,.15)}
+.thumbs{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:12px;margin-top:20px}
+.thumbs img{width:100%;border-radius:8px;cursor:pointer;transition:.2s}
+.thumbs img:hover{transform:scale(1.03)}
+.card{background:#fff;border-radius:12px;padding:25px;margin-top:25px;box-shadow:0 3px 10px rgba(0,0,0,.08)}
+h2{margin-top:0}
+ul{line-height:1.9}
+</style>
+
+</head>
+<body>
+
+<header>
+<h1>Представницький офіс</h1>
+<div>960 м² • Майдан Незалежності • 1 поверх</div>
+<div class="price">18 432 $ / місяць</div>
+<div>19 $/м²</div>
+</header>
+
+<div class="wrap">
+
+<img id="hero" src="images/image (1).webp">
+
+<div class="thumbs">
+
+<img src="images/image (1).webp" onclick="hero.src=this.src">
+<img src="images/image (2).webp" onclick="hero.src=this.src">
+<img src="images/image (3).webp" onclick="hero.src=this.src">
+<img src="images/image (4).webp" onclick="hero.src=this.src">
+<img src="images/image (5).webp" onclick="hero.src=this.src">
+<img src="images/image (6).webp" onclick="hero.src=this.src">
+<img src="images/image (7).webp" onclick="hero.src=this.src">
+<img src="images/image (8).webp" onclick="hero.src=this.src">
+<img src="images/image (9).webp" onclick="hero.src=this.src">
+<img src="images/image (10).webp" onclick="hero.src=this.src">
+<img src="images/image (11).webp" onclick="hero.src=this.src">
+<img src="images/image (12).webp" onclick="hero.src=this.src">
+
+</div>
+
+<div class="card">
+<h2>Основні характеристики</h2>
+
+<ul>
+<li>960 м²</li>
+<li>1 поверх</li>
+<li>Окремий фасадний вхід</li>
+<li>Другий окремий вхід</li>
+<li>Open Space + кабінети</li>
+<li>Повністю мебльований</li>
+<li>2 кухні</li>
+<li>2 блоки санвузлів</li>
+<li>Центральна вентиляція</li>
+<li>Кондиціонування</li>
+<li>Пожежна сигналізація</li>
+<li>Потужний генератор</li>
+</ul>
+
+</div>
+
+<div class="card">
+
+<h2>Опис</h2>
+
+<p>
+Пропонується в довгострокову оренду представницький офіс площею
+960 м² у самому центрі Києва, лише за кілька хвилин пішки від
+станції метро «Майдан Незалежності».
+</p>
+
+<p>
+Ідеально підходить для штаб-квартири великої компанії,
+представництва міжнародного бізнесу, IT-компанії,
+фінансової установи або корпоративного офісу.
+</p>
+
+<h3>Планування</h3>
+
+<ul>
+<li>Просторий Open Space</li>
+<li>Кабінетна система</li>
+<li>Рецепція</li>
+<li>Переговорні кімнати</li>
+<li>2 обладнані кухні</li>
+<li>2 блоки санвузлів</li>
+</ul>
+
+<h3>Оснащення</h3>
+
+<ul>
+<li>Повністю мебльований офіс</li>
+<li>Система кондиціонування</li>
+<li>Центральна вентиляція</li>
+<li>Пожежна сигналізація</li>
+<li>Генератор</li>
+</ul>
+
+<h3>Умови оренди</h3>
+
+<ul>
+<li>Орендна ставка — 12 $/м² + ПДВ</li>
+<li>Експлуатаційні витрати — 4 $/м² + ПДВ</li>
+<li>Електроенергія оплачується окремо</li>
+</ul>
+
+</div>
+
+</div>
+
+<script>
+const hero=document.getElementById("hero");
+</script>
+
+</body>
+</html>
